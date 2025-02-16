@@ -53,7 +53,7 @@ def main():
             fout.write(f'[Site "Local"]\n')
             fout.write(f'[Date "{today}"]\n')
             fout.write(f'[Round "-"]\n')
-            fout.write(f'[White "White"]\n')
+            fout.write(f'[White "Line {idx}"]\n')  # Updated to include line number
             fout.write(f'[Black "Black"]\n')
             fout.write('\n')
             fout.write(moves + "\n")
